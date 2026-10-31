@@ -97,12 +97,14 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				url: "https://github.com/CXP-C",
 				external: true,
 				icon: "fa7-brands:github",
+				pageKey: "github",
 			},
 			{
 				name: "Firefly文档",
 				url: "https://docs-firefly.cuteleaf.cn",
 				external: true,
 				icon: "material-symbols:docs",
+				pageKey: "firefly-docs",
 			},
 		],
 	});
@@ -132,26 +134,31 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		name: "主页",
 		url: "/",
 		icon: "material-symbols:home",
+		pageKey: "home",
 	},
 	Archive: {
 		name: "归档",
 		url: "/archive/",
 		icon: "material-symbols:archive",
+		pageKey: "archive",
 	},
 	Categories: {
 		name: "分类",
 		url: "/categories/",
 		icon: "material-symbols:folder-open-rounded",
+		pageKey: "categories",
 	},
 	Tags: {
 		name: "标签",
 		url: "/tags/",
 		icon: "material-symbols:tag-rounded",
+		pageKey: "tags",
 	},
 	Series: {
 		name: "系列",
 		url: "/series/",
 		icon: "material-symbols:layers",
+		pageKey: "series",
 	},
 	Friends: {
 		name: "友链",
@@ -199,6 +206,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		name: "关于我",
 		url: "/about/",
 		icon: "material-symbols:person",
+		pageKey: "about",
 	},
 };
 
