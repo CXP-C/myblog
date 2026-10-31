@@ -202,6 +202,12 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		icon: "fa7-brands:bilibili",
 		pageKey: "bilibili",
 	},
+	MAL: {
+		name: "AnimeList",
+		url: "/myanimelist/",
+		icon: "material-symbols:menu-book",
+		pageKey: "mal",
+	},
 	About: {
 		name: "关于我",
 		url: "/about/",
