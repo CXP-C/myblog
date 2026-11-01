@@ -9,10 +9,10 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.avif",
 
 	// 名字
-	name: "chen xipin",
+	name: "锡影",
 
 	// 个人签名
-	bio: "Hello, I'm chen xipin.",
+	bio: "用镜头记录游戏与生活。",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
