@@ -1,5 +1,5 @@
 ---
-title: "Firefly 主题模版"
+title: "我的博客"
 slug: firefly
 published: 2025-10-01
 order: 100
