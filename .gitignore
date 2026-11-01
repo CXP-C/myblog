@@ -7,6 +7,9 @@ public/vndb-covers/
 # generated types
 .astro/
 
+# generated Wrangler deployment config
+.wrangler/
+
 # dependencies
 node_modules/
 

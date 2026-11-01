@@ -145,6 +145,13 @@
 
    安装命令： `pnpm install`
 
+#### Cloudflare Workers Builds
+
+在 Cloudflare Workers Builds 中使用以下命令，部署脚本会显式读取 Astro Cloudflare Adapter 生成的 Wrangler 配置，避免使用缓存中的旧配置：
+
+- 构建命令：`pnpm build`
+- 部署命令：`pnpm run deploy`
+
    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/CuteLeaf/Firefly&project-name=Firefly&repository-name=Firefly)
    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CuteLeaf/Firefly)
 
