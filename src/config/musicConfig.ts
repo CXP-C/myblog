@@ -69,13 +69,6 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				lrc: "",
 			},
 			{
-				name: "HEAVENLY JUMPSTYLE (2)",
-				artist: "TWXNY / Sxilwix / INNXCENCE",
-				url: "/assets/music/HEAVENLY JUMPSTYLE (2).mp3",
-				cover: "",
-				lrc: "",
-			},
-			{
 				name: "Masquerade",
 				artist: "Lindsey Stirling",
 				url: "/assets/music/Masquerade.mp3",
@@ -93,13 +86,6 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				name: "MONTAGEM ALQUIMIA",
 				artist: "h6itam / n7san7os",
 				url: "/assets/music/MONTAGEM ALQUIMIA.mp3",
-				cover: "",
-				lrc: "",
-			},
-			{
-				name: "MONTAGEM ALQUIMIA (2)",
-				artist: "h6itam / n7san7os",
-				url: "/assets/music/MONTAGEM ALQUIMIA (2).mp3",
 				cover: "",
 				lrc: "",
 			},
